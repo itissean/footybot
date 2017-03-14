@@ -1,0 +1,27 @@
+{
+  "name": "footybot",
+  "version": "0.1.0",
+  "description": "Reddit bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wulfcode/footybot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wulfcode/footybot/issues"
+  },
+  "author": "Sean Prasertsit <sean@wulfcode.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/wulfcode/footybot#readme",
+  "dependencies": {
+    "bookshelf": "^0.10.3",
+    "express": "^4.15.2",
+    "jest": "^19.0.2",
+    "knex": "^0.12.7",
+    "mariasql": "^0.2.6",
+    "uuid": "^3.0.1"
+  }
+}
